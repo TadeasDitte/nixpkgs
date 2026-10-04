@@ -40,6 +40,6 @@ php.buildComposerProject2 (finalAttrs: {
     changelog = "https://github.com/laravel/installer/releases/tag/v${finalAttrs.version}";
     license = lib.licenses.mit;
     mainProgram = "laravel";
-    maintainers = with lib.maintainers; [ heisfer ];
+    maintainers = with lib.maintainers; [ heisfer TadeasDitte ];
   };
 })
